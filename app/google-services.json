@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907874193349",
+    "project_id": "anxiety-cat-app",
+    "storage_bucket": "anxiety-cat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907874193349:android:2a9010eaadd7a4b97ac5ac",
+        "android_client_info": {
+          "package_name": "com.lydia.android.anxietycatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQcPPwBROYdFMXhU2t8OdiQ0Ja1SlKAMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videohelp"
+    android:orientation="vertical"
+    android:background="@drawable/backdgroundmain">
+    <VideoView
+        android:id="@+id/askingforhelp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="170dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/playvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/pausevideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/stopvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replay"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="italic"
+        android:background="@color/white"
+        android:text="&quot;Be strong enough to stand alone, smart enough to know when you need help and brave enough to ask for it&quot;" />
+
+
+</LinearLayout>
